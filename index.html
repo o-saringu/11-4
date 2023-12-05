@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF=8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="midasi">
+<h1>プログラム復習コンテンツ</h1>
+<a href="https://o-saringu.github.io/mokuji/">
+<div class="home"></div>
+</a>
+</div>
+
+<div class="oomidasi"><p>配列-4</div>
+
+<div class="yoko">
+	<div class="yoko1">
+	<div class="komidasi1"><p>サンプルコードの結果</p></div>
+	<img src = "11-4.png">
+	</div>
+	<div class="yoko1">
+	<div class="komidasi2"><p>サンプルコード</div>
+	<div class="code">
+		<p>　　	float[] gray;
+		<p>　　	　
+		<p>　　	void setup(){
+		<p>　　	　size(240, 120);
+		<p>　　	　gray=new float[width];
+		<p>　　	　for(int i=0; i<gray.length; i++){
+		<p>　　	　　gray[i]=random(0, 255);
+		<p>　　	　}
+		<p>　　	}
+		<p>　　	　
+		<p>　　	void draw(){
+		<p>　　	　for(int i=0; i<gray.length; i++){
+		<p>　　	　　stroke(gray[i]);
+		<p>　　	　　line(i, 0, i, height);
+		<p>　　	　}
+		<p>　　	}
+	</div>
+	</div>
+</div>
+
+
+<div class="komidasi3"><p>説明文</div>
+<div class="ep">
+	<p>　配列-4では、forループを使用した配列のプログラムである。
+	<p>　
+	<p>　このプログラムでは、setup()で乱数を代入し、その値を使用しdraw()で線を描いている。
+	<p>　プログラムが実行されるたびに新しい乱数のセットが配列に入る。
+	<p>　プログラム中にある[.length]というコードは、配列の数を出力する際に用いる。
+</div>
+
+</body>
+
+
