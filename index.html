@@ -1,7 +1,13 @@
-<!DOCTYPE html>
+<html lang="jp">
+
 <head>
-<meta charset="UTF=8">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=M+PLUS+1p:wght@500&family=Oswald&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,20 +28,20 @@
 	<div class="yoko1">
 	<div class="komidasi2"><p>サンプルコード</div>
 	<div class="code">
-		<p>　　	float[] gray;
+		<p>　　	<a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >float</a>[] gray;
 		<p>　　	　
-		<p>　　	void setup(){
-		<p>　　	　size(240, 120);
-		<p>　　	　gray=new float[width];
-		<p>　　	　for(int i=0; i<gray.length; i++){
-		<p>　　	　　gray[i]=random(0, 255);
+		<p>　　	<a href="https://o-saringu.github.io/5-2/"target="_blank" rel="noopener noreferrer" >void setup()</a>{
+		<p>　　	　<a href="https://o-saringu.github.io/size/"target="_blank" rel="noopener noreferrer" >size</a>(240, 120);
+		<p>　　	　gray=new <a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >float</a>[<a href="https://o-saringu.github.io/4-3/"target="_blank" rel="noopener noreferrer" >width</a>];
+		<p>　　	　<a href="https://o-saringu.github.io/4-5/"target="_blank" rel="noopener noreferrer" >for</a>(<a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >int</a> i=0; i<gray.length; i++){
+		<p>　　	　　gray[i]=<a href="https://o-saringu.github.io/8-5/"target="_blank" rel="noopener noreferrer" >random</a>(0, 255);
 		<p>　　	　}
 		<p>　　	}
 		<p>　　	　
-		<p>　　	void draw(){
-		<p>　　	　for(int i=0; i<gray.length; i++){
-		<p>　　	　　stroke(gray[i]);
-		<p>　　	　　line(i, 0, i, height);
+		<p>　　	<a href="https://o-saringu.github.io/8-1/"target="_blank" rel="noopener noreferrer" >void draw()</a>{
+		<p>　　	　<a href="https://o-saringu.github.io/4-5/"target="_blank" rel="noopener noreferrer" >for</a>(<a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >int</a> i=0; i<gray.length; i++){
+		<p>　　	　　<a href="https://o-saringu.github.io/stroke/"target="_blank" rel="noopener noreferrer" >stroke</a>(gray[i]);
+		<p>　　	　　<a href="https://o-saringu.github.io/line/"target="_blank" rel="noopener noreferrer" >line</a>(i, 0, i, <a href="https://o-saringu.github.io/4-3/"target="_blank" rel="noopener noreferrer" >height</a>);
 		<p>　　	　}
 		<p>　　	}
 	</div>
@@ -45,10 +51,10 @@
 
 <div class="komidasi3"><p>説明文</div>
 <div class="ep">
-	<p>　配列-4では、forループを使用した配列のプログラムである。
+	<p>　配列-4では、<a href="https://o-saringu.github.io/4-5/"target="_blank" rel="noopener noreferrer" >forループ</a>を使用した<a href="https://o-saringu.github.io/hairetu/"target="_blank" rel="noopener noreferrer" >配列</a>のプログラムである。
 	<p>　
-	<p>　このプログラムでは、setup()で乱数を代入し、その値を使用しdraw()で線を描いている。
-	<p>　プログラムが実行されるたびに新しい乱数のセットが配列に入る。
+	<p>　このプログラムでは、<a href="https://o-saringu.github.io/5-2/"target="_blank" rel="noopener noreferrer" >setup()</a>で<a href="https://o-saringu.github.io/8-5/"target="_blank" rel="noopener noreferrer" >乱数</a>を代入し、その値を使用し<a href="https://o-saringu.github.io/5-1/"target="_blank" rel="noopener noreferrer" >draw()</a>で線を描いている。
+	<p>　プログラムが実行されるたびに新しい<a href="https://o-saringu.github.io/8-5/"target="_blank" rel="noopener noreferrer" >乱数</a>のセットが<a href="https://o-saringu.github.io/hairetu/"target="_blank" rel="noopener noreferrer" >配列</a>に入る。
 	<p>　プログラム中にある[.length]というコードは、配列の数を出力する際に用いる。
 </div>
 
